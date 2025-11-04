@@ -1,0 +1,62 @@
+# Análise de Risco Bancário
+
+## 📋 Sobre o Projeto
+
+Este é um projeto de análise de dados sobre risco bancário, desenvolvido como parte dos meus estudos em análise de dados. O objetivo é explorar e entender padrões relacionados ao comportamento de clientes bancários, identificando características que podem estar associadas a diferentes perfis de risco.
+
+**Status do Projeto:** 🚧 Em desenvolvimento
+
+## 🎯 Objetivos
+
+- Explorar e entender a base de dados de clientes bancários
+- Realizar análises descritivas sobre o perfil dos clientes
+- Identificar padrões e características relevantes
+- Visualizar dados de forma clara e informativa
+
+## 📊 Sobre os Dados
+
+O dataset utilizado é o **Bank Marketing Dataset**, que contém informações sobre campanhas de marketing direto de uma instituição bancária portuguesa. Os dados incluem:
+
+- **45.211 registros** de clientes
+- **17 variáveis** incluindo características demográficas, financeiras e comportamentais
+- Período dos dados: Maio de 2008 a Novembro de 2010
+
+### Principais Variáveis
+- Dados demográficos: idade, profissão, estado civil, educação
+- Dados financeiros: saldo, empréstimos, crédito em default
+- Dados de campanha: duração do contato, número de tentativas, resultado anterior
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Python 3**
+- **Pandas** - Manipulação e análise de dados
+- **NumPy** - Operações numéricas
+- **Matplotlib** - Visualização de dados
+- **Seaborn** - Visualizações estatísticas avançadas
+- **Jupyter Notebook** - Ambiente de desenvolvimento
+
+## 📈 Análises Realizadas
+
+### Análise Exploratória
+- Estatísticas descritivas da base de dados
+- Distribuição de idade dos clientes
+- Análise de profissões dos clientes
+- Identificação de outliers
+
+### Visualizações
+- Histogramas de distribuição
+- Boxplots para análise de outliers
+- Gráficos de barras para variáveis categóricas
+
+## 📝 Observações Iniciais
+
+Através das análises realizadas até o momento, foi possível identificar que:
+
+- O público-alvo principal está concentrado na faixa de **30-40 anos**
+- As profissões mais representadas são: blue-collar, gestão e técnicos
+- O dataset não possui valores faltantes
+
+---
+
+**Nota:** Este é um projeto em desenvolvimento e parte do meu aprendizado em análise de dados. Feedback e sugestões são sempre bem-vindos! 😊
+
