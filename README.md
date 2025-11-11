@@ -41,22 +41,42 @@ O dataset utilizado é o **Bank Marketing Dataset**, que contém informações s
 - Estatísticas descritivas da base de dados
 - Distribuição de idade dos clientes
 - Análise de profissões dos clientes
-- Identificação de outliers
+- Análise de tipos de contato
+- Identificação de outliers (método IQR)
+- Análise de correlação entre variáveis numéricas
+
+### Análises de Relacionamento
+- Relação entre idade e saldo bancário
+- Distribuição de saldo vs. inadimplência, empréstimos e financiamento imobiliário
+- Taxa de conversão por grupos (outliers vs. não-outliers)
+- Comparação entre clientes novos e antigos
 
 ### Visualizações
 - Histogramas de distribuição
 - Boxplots para análise de outliers
 - Gráficos de barras para variáveis categóricas
+- Gráficos de dispersão e densidade
+- Mapas de calor de correlação
+- Gráficos comparativos de taxa de conversão
 
-## 📝 Observações Iniciais
+## 📝 Principais Descobertas
 
-Através das análises realizadas até o momento, foi possível identificar que:
+Através das análises realizadas, foi possível identificar que:
 
 - O público-alvo principal está concentrado na faixa de **30-40 anos**
-- As profissões mais representadas são: blue-collar, gestão e técnicos
+- As profissões mais representadas são: blue-collar (21.53%), gestão (20.92%) e técnicos (16.80%)
 - O dataset não possui valores faltantes
+- **10.42%** dos clientes são considerados outliers em relação ao saldo (acima de 3.462 euros)
+- Clientes com saldo alto (outliers) têm **taxa de conversão maior** (16.26% vs 11.17%)
+- Clientes antigos têm **taxa de conversão significativamente maior** (23.07% vs 9.16%) que clientes novos
+- A maioria dos contatos é feita por **celular (64.77%)**
+
+## 📄 Documentação
+
+Para uma análise detalhada e completa dos resultados, consulte o arquivo **[ANALISE.md](ANALISE.md)** que contém todas as descobertas, metodologias e conclusões do projeto.
 
 ---
 
-**Nota:** Este é um projeto em desenvolvimento e parte do meu aprendizado em análise de dados. Feedback e sugestões são sempre bem-vindos! 😊
+**Nota:** Este é um projeto é parte do meu aprendizado em análise de dados. Feedback e sugestões são sempre bem-vindos! 😊
 
+OBS: Todos os markdowns foram feitos com AI.
